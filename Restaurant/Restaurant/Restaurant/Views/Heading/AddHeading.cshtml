@@ -1,0 +1,44 @@
+﻿@model EntityLayer.Concrete.Items
+
+@{
+    ViewBag.Title = "AddHeading";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Yeni Menü Ekleme Sayfası</h2>
+@using (Html.BeginForm("AddHeading", "Heading", FormMethod.Post))
+{
+<div class="form-group">
+    @*@Html.Label("Menü Id")
+    @Html.TextBoxFor(x => x.ItemId, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.ItemId)*@
+    <br />
+    @Html.Label("Menü Görseli")
+    @Html.TextBoxFor(x => x.Image, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Image)
+    <br />
+    @Html.Label("Menü Adı")
+    @Html.TextBoxFor(x => x.ItemName, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.ItemName)
+    <br />
+    @Html.Label("Menü Açıklamasını Yazınız")
+    @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+    @Html.ValidationMessageFor(x => x.Description)
+    <br />
+    @Html.Label("Ürün Kategorisini Seçiniz")  LabelFor kullanarak etiket ekledik 
+    @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.vlc,new{@class="form-control"})
+
+    <br />
+        @Html.Label("Menü Fiyatı")
+        @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Price)
+        <br />
+        @Html.Label("Menü Durumunu Belirtin")
+        @Html.TextBoxFor(x => x.IsActive, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.IsActive)
+        <br />
+        <button class="btn btn-info">Menüyü Kaydet</button>
+
+
+</div>
+}

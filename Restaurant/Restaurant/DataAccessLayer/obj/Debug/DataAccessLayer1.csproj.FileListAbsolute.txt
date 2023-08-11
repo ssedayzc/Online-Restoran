@@ -1,0 +1,15 @@
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\DataAccessLayer.dll.config
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\DataAccessLayer.dll
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\DataAccessLayer.pdb
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\EntityFramework.dll
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\EntityLayer.dll
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\EntityLayer.pdb
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\EntityLayer.dll.config
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\EntityFramework.xml
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\obj\Debug\DataAccessLayer1.csproj.AssemblyReference.cache
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\obj\Debug\DataAccessLayer1.csproj.CoreCompileInputs.cache
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\obj\Debug\DataAccessLayer1.csproj.CopyComplete
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\obj\Debug\DataAccessLayer.dll
+C:\Users\bekir\source\repos\Restaurant\DataAccessLayer\obj\Debug\DataAccessLayer.pdb

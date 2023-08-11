@@ -1,0 +1,45 @@
+﻿@model EntityLayer.Concrete.Items
+
+@{
+    ViewBag.Title = "EditHeading";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Menü Güncelleme Sayfası</h2>
+<br />
+
+@using (Html.BeginForm("EditHeading", "Heading", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(x => x.ItemId)
+        @Html.TextBoxFor(x => x.ItemId, new { @class = "form-control", @readonly = "readonly" }) <!-- İd alanı için readonly ekledik -->
+
+        <br />
+        @Html.LabelFor(x => x.Image)
+        @Html.TextBoxFor(x => x.Image, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.ItemName) <!-- LabelFor kullanarak etiket ekledik -->
+        @Html.TextBoxFor(x => x.ItemName, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.ItemName)
+        <br />
+        @Html.LabelFor(x => x.Description) <!-- LabelFor kullanarak etiket ekledik -->
+        @Html.TextAreaFor(x => x.Description, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Description)
+        <br />
+        @Html.LabelFor(x => x.CategoryId) <!-- LabelFor kullanarak etiket ekledik -->
+        @Html.DropDownListFor(x => x.CategoryId, (List<SelectListItem>)ViewBag.vlc, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(x => x.Price) <!-- LabelFor kullanarak etiket ekledik -->
+        @Html.TextBoxFor(x => x.Price, new { @class = "form-control" })
+        @Html.ValidationMessageFor(x => x.Price)
+        <br />
+        @Html.LabelFor(x => x.IsActive) <!-- LabelFor kullanarak etiket ekledik -->
+        @Html.DropDownListFor(x => x.IsActive, new List<SelectListItem>
+        {
+            new SelectListItem { Text = "True", Value = "true" },
+            new SelectListItem { Text = "False", Value = "false" }
+        }, new { @class = "form-control" })
+        <br />
+        <button class="btn btn-success">Güncelle</button>
+    </div>
+}
