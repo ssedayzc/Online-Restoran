@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Restaurant",
+    "\\Restaurant\\Restaurant",
+    "\\Restaurant\\Restaurant\\Restaurant",
+    "\\Restaurant\\Restaurant\\Restaurant\\Views",
+    "\\Restaurant\\Restaurant\\Restaurant\\Views\\AdminCategory",
+    "\\Restaurant\\Restaurant\\Restaurant\\Views\\Category",
+    "\\Restaurant\\Restaurant\\Restaurant\\Views\\Heading",
+    "\\Restaurant\\Restaurant\\Restaurant\\Views\\Login",
+    "\\Restaurant\\Restaurant\\Restaurant\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Restaurant\\Restaurant\\Restaurant\\AdminLTE-3.0.4",
+  "PreviewInSolutionExplorer": false
+}

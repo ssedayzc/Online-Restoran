@@ -68,7 +68,7 @@ namespace Restaurant.Controllers
                                                   }).ToList();
             ViewBag.vlc = valueCategory;
 
-            var headingValue = hm.GetById(id); // Veritabanından ilgili başlık öğesini çekiyoruz
+            var headingValue = hm.GetById(id); 
             return View(headingValue);
         }
 

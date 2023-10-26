@@ -36,8 +36,8 @@ namespace BusinessLayer.Concrete
 
         public void HeadingDelete(Items heading)
         {
-            //heading.HeadingStatus = false;
-            _headingDal.Delete(heading);
+            heading.HeadingStatus = false;
+            
         }
 
         public List<Items> GetListByCategoryId(int id)
